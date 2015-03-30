@@ -97,4 +97,11 @@ class DefaultController extends Controller
 	{
 	    return $this->render('default/urodzenibiegacze.html.twig');
 	}
+         /**
+	 * @Route("/planandersa.html", name="planandersa")
+	 */
+	public function planandersaAction()
+	{
+	    return $this->render('default/planandersa.html.twig');
+	}
 }
