@@ -97,4 +97,12 @@ class DefaultController extends Controller
 	{
 	    return $this->render('default/urodzenibiegacze.html.twig');
 	}
-}
+/**
+	 * @Route("/wojnaopieniadze.html", name="wojnaopieniadze")
+	 */
+	public function wojnaopieniadzeAction()
+	{
+	    return $this->render('default/wojnaopieniadze.html.twig');
+	}
+        
+        }
